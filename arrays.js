@@ -36,12 +36,12 @@ function removeElementFromBeginningOfArray(a){
   return a.slice(1);
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(a){
-  a.shift();
+function destructivelyRemoveElementFromEndOfArray(a){
+  a.pop();
   return a;
 }
 
-function removeElementFromBeginningOfArray(a){
+function removeElementFromEndOfArray(a){
   
-  return a.slice(1);
+  return a.slice(0, a.length -1);
 }
